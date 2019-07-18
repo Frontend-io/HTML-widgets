@@ -25,6 +25,10 @@
 				this.parentElement.classList.add("selected");
 				this.parentElement.parentElement.parentElement.firstElementChild.children[0].value = this.value;
 				this.parentElement.parentElement.classList.add("hide");
+                                //Checking a fix
+                                this.parentElement.parentElement.style.visibility = "hidden";
+                                this.parentElement.parentElement.style.opacity = "0";
+                                this.parentElement.parentElement.style.top = "-10px";
 			}
 		};
 	}
